@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.bg-container {
+  background-color: #0f172a;
+  color: #f8fafc;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.greeting {
+  color: #f8fafc;
+  font-family: "Roboto";
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 150px;
+}
+
+@media (min-width: "768px") {
+  img {
+    width: 300px;
+  }
+  .greeting {
+    font-size: 30px;
+  }
+}
